@@ -18,5 +18,5 @@ The goal for this project is how we can take an ideal transmission line design, 
 
 ## MATLAB FMCW Simulation
 
-## Verilog ALU
+## SystemVerilog ALU
 
