@@ -27,4 +27,10 @@ Four distinct skills are involved:
 ## MATLAB FMCW Simulation
 
 ## SystemVerilog ALU
+Goal for this project is to design and verify an Arithmetic Logic Unit (ALU) in SystemVerilog, then integrate it into an FPGA based calculator that can perform these arithmetic and logic operations. It stores results in registers and uses this memory for further calculations. 
 
+Four distinct engineering skills are involved:
+1) **RTL design and combinational logic:** Implemented ALU using operations like adding/subtracting, bitwise AND/OR/XOR, and logical shifts. Generated zero flag as a catch and easy way to use the testbench.
+2) **Parameterizing hardware:** Developed ALU using a non constant word size meaning the logic doesn't have to be rewritten whether the input is 4 bit or 32 bit.
+3) **Register based build with FPGA integration:** Integrated ALU with 16 register, 4 bit memory system. Used register addresses to select operations and destinations to pull data for calcuations and store it after.
+4) **Simulation and verification:** Used testbenches to verify the ALU functionality across different input values an operations to verify before deploying the design to the FPGA.
