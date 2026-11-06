@@ -13,6 +13,14 @@ The goal for this project is how we can take an ideal transmission line design, 
 2) **Physical implementation:** Converting ideal transmission lines into microstrip dimensions using the substrate and conductor properties
 3) **EM validation:** Comparing the circuit level predictions with the actual electromagnetic response of the physical layout and explaining differences
 
+## ADS Microwave Filter Design
+The goal of this project is to explore microwave filter design using lumped elements and ideal transmission lines in Keysight ADS, compe their frequency responses and investige how circuit structure affects filter behavior.
+
+3 distinct engineering skills are involved:
+1) **Analytical filter synthesis:** Used Butterworth low-pass filter as a base, impedance and frequency scaling, and low-pass-to-band-pass transformations to design lumped-element filters
+2) **Distributed circuit design:** Applied Richards transformations and the Kuroda identities to convert the lumped-element prototypes into transmission-line networks using open-circuited stubs and connecting ideal lines
+3) **Simulation and response analysis:** Evaluated insertion loss and S-parameters in ADS, investigating an unexpected band-pass-like response in a transmission-line network originally designed as a low-pass filter
+
 
 ## Python LIBS Research with ML
 The goal of this project is to predict the composition of rocks (SiO2, TiO2, Al2O3, Fe2O3, MgO, CaO, Na2O and K2O in wt%) from laser induced breakdown spectroscopy (LIBS) spectra collected in a lab under lunar conditions. The algorithm takes the wavelengths and intensities at each wavelength as an input and will output the wt% from a regression problem.
