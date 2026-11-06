@@ -3,7 +3,12 @@ This portfolio is dedicated to take a given problem, model it, analyze the resul
 
 
 ## HFSS Antenna Simulation
+The goal of this project is to design and simulate a 2.45 GHz microstrip patch antenna for directional Wi-Fi applications using Ansys HFSS, exploring how antenna geometry affects impedance matching, resonance, and radiation characteristics.
 
+Three distinct engineering skills are involved:
+1) **Analytical antenna design:** Calculated initial patch dimensions using operating frequency, substrate thickness, and dielectric properties.
+2) **Electromagnetic modeling:** Built an inset-fed microstrip patch antenna with an FR-4 substrate, ground plane, lumped port excitation, and radiation boundary in HFSS.
+3) **Simulation and optimization:** Investigated how patch dimensions and feed geometry influence return loss, resonant frequency, input impedance, and radiation performance.
 
 ## ADS Rat Race Coupler Simulations
 The goal for this project is how we can take an ideal transmission line design, translate it into a physical microstrip circuit, then evaluate what changes occur when we account for real ENM behavior.
