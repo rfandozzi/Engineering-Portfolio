@@ -16,10 +16,10 @@ Designed and simulated lumped-element and distributed transmission-line filters 
 1. **insertion loss_lumped.png:** LC circuit simulated frequency response.
 2. **schematic_lumped.png:** LC circuit schematic
 3. **analytical_soln_TL.pdf:** Full work shown to get from lumped low pass to TL bandpass
-4. **Kuroda-transformed filter:** Ideal transmission-line circuit using shunt stubs and connecting lines.
+4. **TL_schematic.png:** TL schematic on ADS from analytical solution
+5. **TL_insertion loss.png:** TL circuit simulated frequency response
 
 ## Results and Interpretation
-
 Compared insertion loss S(2,1) across implementations to evaluate passband behavior, cutoff frequency, and stopband attenuation.
 
 An unexpected band-pass-like response appeared in the distributed filter initially designed as a low-pass network, motivating further investigation of stub terminations, circuit connections, and electrical lengths.
