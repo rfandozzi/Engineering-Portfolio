@@ -11,11 +11,12 @@ Designed and simulated lumped-element and distributed transmission-line filters 
 3. **Richards' transformation:** Replaced lumped components with open- and short-circuited transmission-line stubs.
 4. **Kuroda's identities:** Added redundant transmission lines and transformed series stubs into shunt stubs for a more practical distributed implementation.
 
-## Schematics
+## Attachments
 
-1. **Lumped-element band-pass:** LC circuit and simulated frequency response.
-2. **Richards-transformed filter:** Initial distributed transmission-line network.
-3. **Kuroda-transformed filter:** Ideal transmission-line circuit using shunt stubs and connecting lines.
+1. **insertion loss_lumped.png:** LC circuit simulated frequency response.
+2. **schematic_lumped.png:** LC circuit schematic
+3. **analytical_soln_TL.pdf:** Full work shown to get from lumped low pass to TL bandpass
+4. **Kuroda-transformed filter:** Ideal transmission-line circuit using shunt stubs and connecting lines.
 
 ## Results and Interpretation
 
