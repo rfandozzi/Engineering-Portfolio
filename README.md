@@ -32,8 +32,6 @@ Four distinct skills are involved:
 4) **Model comparison with hyperparameter optimization:** Based on previous research informed the models used to test different parameters and dimensionality reduction techniques. Best performance found with GBR, kept PLS since that is industry standard. Tuned both with grouped cross validation.
 
 
-## MATLAB FMCW Simulation
-
 ## SystemVerilog ALU
 Goal for this project is to design and verify an Arithmetic Logic Unit (ALU) in SystemVerilog, then integrate it into an FPGA based calculator that can perform these arithmetic and logic operations. It stores results in registers and uses this memory for further calculations. 
 
