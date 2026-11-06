@@ -12,7 +12,7 @@ Designed a rectangular microstrip patch antenna operating near the 2.45 GHz Wi-F
 ## Simulation Results
 
 1) **Antenna geometry:** Physical patch and feed layout.
-2) **Return loss (\(S_{11}\)):** Resonance and matching near 2.45 GHz.
+2) **Return loss S(1,1):** Resonance and matching near 2.45 GHz.
 3) **Radiation pattern:** Directionality and realized gain.
 
 ## Results and Interpretation
